@@ -1,0 +1,23 @@
+@import "header.css";
+@import "navbar.css";
+@import "sections.css";
+@import "footer.css";
+@import "arrows.css";
+@import "mobilePortrait.css";
+@import "mobileLandscape.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
